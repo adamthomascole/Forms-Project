@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam's Sign-up Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div id="odin-div">
+            <img id="odin-logo" src="./images/odin-lined.png" alt="White outline logo for The Odin Project">
+            <p id="odin-text">ODIN</p>
+        </div>
+        <p id="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
+    </div>
+    <div id="right">
+        <div class="right-side" id="top">
+            <p>Hey, you! Give me your information! <strong>Right Now!</strong> Please? I'll keep it nice and safe! I know just the place to put it! I won't share it with anyone! I won't even sell it to data brokers! Really, <em>I promise...</em></p>
+            <br>
+            <p>Seriously, <em>hand it over.</em></p>
+        </div>
+        <form class="right-side" id="middle">
+            <p>Here we go!</p>
+            <div id="columns">
+                <div id="leftcolumn">
+                    <label for="firstname">FIRST NAME</label>
+                    <input type="text" id="firstname">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                    <label for="pass">PASSWORD</label>
+                    <input type="password" id="pass" required>
+                </div>
+                <div id="rightcolumn">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" id="lastname">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone">
+                    <label for="confpass">CONFIRM PASSWORD</label>
+                    <input type="password" id="confpass" required>
+                </div>
+            </div>
+        </form>
+        <div class="right-side" id="bottom">
+            <button type="submit" form="middle">Create Account</button>
+            <br>
+            <p id="login">Already have an account? <a href="./index.html">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
